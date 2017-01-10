@@ -1,0 +1,29 @@
+{
+  "name": "infernoUpdateBug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/schuchertmanagementberatung/infernoUpdateBug.git",
+  "author": "marudor <marudor@marudor.de>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dashboard -- webpack-dev-server --watch --inline --content-base www/ --history-api-fallback --quiet"
+  },
+  "dependencies": {
+    "inferno": "^1.1.1",
+    "inferno-compat": "^1.1.1",
+    "inferno-server": "^1.1.1",
+    "react-router": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.7",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "beta",
+    "webpack-dashboard": "^0.2.1",
+    "webpack-dev-server": "beta"
+  }
+}

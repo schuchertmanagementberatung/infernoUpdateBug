@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": 43,
+        "firefox": 42,
+        "safari": 9,
+        "opera": 30,
+        "edge": 12,
+        "iOS": 9
+      },
+      "useBuiltIns": true
+      }],
+      "react",
+      "stage-2"
+  ],
+  "plugins": [
+  ]
+}
